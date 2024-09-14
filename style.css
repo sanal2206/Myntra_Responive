@@ -1,0 +1,147 @@
+.logo {
+    width: 60px; /* You can adjust this width to your preference */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    max-width: 100%; /* Ensures responsiveness */
+  }
+  
+/*  navbar menu */
+  .nav-menu a{
+    font-size: 1.2em;
+    font-weight: 600;
+    
+    letter-spacing: .2rem;
+    color: #282c3f;
+     
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 3px solid #fff;
+    
+  }
+
+  .nav-menu a:hover
+{
+    border-bottom: 3px solid #f54e77;
+}
+  /* supix style */
+
+  .nav-item a sup{
+    color: #dd181f;
+    font-size: 1rem ;
+     
+  }
+/*  icon section */
+  .icons-section a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .action_icon {
+    font-size: 24px; /* Adjust the icon size */
+  }
+  
+  .action_name {
+    font-size: 14px; /* Adjust the text size */
+    margin-top: 5px; /* Space between the icon and the label */
+    color: #000; /* Text color */
+  }
+  
+  .nav-link {
+    color: inherit; /* Ensure the icon and text inherit the proper color */
+  }
+  
+
+/* Header finshed*/
+
+
+
+/* hero section start */
+
+
+
+
+ 
+
+.sale_item {
+    width: 100%;
+    display: block;
+    object-fit: cover; /* This ensures the images are scaled proportionally */
+  }
+  
+  .category_heading {
+    
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #3e4152;
+    margin: 50px 0px 10px 30px;
+    max-height: 5em;
+    text-align: center;
+    padding: 40px 0px;
+
+    
+  }
+ 
+
+  /* footer */
+  .container-fluid
+  {
+    background-color: #ffff;
+  }
+
+  .footer-section
+  {
+    background-color: #fff;
+  }
+  .footer_column {
+    padding: 1rem;
+  }
+  .footer_column h3 {
+    margin-bottom: 1rem;
+    font-size: medium;
+  }
+  .footer_column a {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #000;
+  }
+  .footer_column a:hover {
+    text-decoration: underline;
+  }
+  .store img {
+    max-width: 100%;
+    height: auto;
+  }
+  .social_media
+  {
+     
+    display: flex;
+     align-items: center;
+  }
+  .social_media img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .approve_images img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+  }
+  .approve_message {
+    margin-bottom: 0.5rem;
+  }
+  .approve_images{
+    display: flex;
+  }
+
+
+ 
